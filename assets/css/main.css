@@ -1,0 +1,103 @@
+/* Hero Section */
+.hero {
+  background-size: cover;
+  padding: 400px 0;
+}
+
+/* Nama dan Deskripsi di Hero */
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* Tombol di Hero */
+.hero button {
+  font-size: 1.25rem;
+  padding: 10px 30px;
+}
+
+/* Kotak Profil di Hero */
+.hero .profile-box {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Profil Gambar di dalam Kotak Profil */
+.hero .profile-box img {
+  width: 250px; /* Mengatur lebar gambar profil */
+  height: 250px; /* Mengatur tinggi gambar profil */
+  border-radius: 10px;
+}
+/* CSS untuk mengatur tata letak nama, deskripsi, dan ikon sosial */
+.hero .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-container {
+  overflow: hidden;
+  height: 300px; /* Tinggi gambar yang diinginkan */
+  position: relative;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px; /* Memberikan jarak antara ikon */
+}
+
+.social-icons li:last-child {
+  margin-right: 0; /* Menghilangkan margin kanan pada ikon terakhir */
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* About Section */
+#about {
+  background-color: #f8f9fa;
+}
+
+.about-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-description {
+  color: #666;
+}
+
